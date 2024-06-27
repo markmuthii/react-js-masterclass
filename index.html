@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DepWith</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="container">
+    <div class="app">
+      <div class="top">
+        <h1>DepWith App</h1>
+      </div>
+      <div class="balance">Account Balance: KSH <span id="balance">1000</span></div>
+      <div class="user-input">
+        <form id="transactionForm">
+          <input type="number" name="amount" id="amount">
+          <button id="depositButton" type="submit">Deposit</button>
+          <button id="withdrawalButton" type="submit">Withdraw</button>
+        </form>
+      </div>
+
+      <div class="transactions">
+        <h2>Transactions</h2>
+        <!-- Table with transactions -->
+        <table>
+          <thead>
+            <tr>
+              <th>Type</th>
+              <th>Amount</th>
+              <th>Date</th>
+            </tr>
+          </thead>
+          <tbody id="transactions">
+            <tr>
+              <td>Deposit</td>
+              <td>1000</td>
+              <td>2020-10-10</td>
+            </tr>
+
+            <tr>
+              <td>Deposit</td>
+              <td>1000</td>
+              <td>2020-10-10</td>
+            </tr>
+
+            <tr>
+              <td>Deposit</td>
+              <td>1000</td>
+              <td>2020-10-10</td>
+            </tr>
+
+            <tr>
+              <td>Deposit</td>
+              <td>1000</td>
+              <td>2020-10-10</td>
+            </tr>
+          </tbody>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>

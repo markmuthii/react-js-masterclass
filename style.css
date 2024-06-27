@@ -1,0 +1,95 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  background-color: rgb(233, 233, 233);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.top {
+  margin-bottom: 100px;
+  text-align: center;
+}
+
+.balance {
+  text-align: center;
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+}
+
+.balance #balance {
+  font-weight: 900;
+}
+
+form input {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+}
+
+form button {
+  width: 49.4%;
+  padding: 10px;
+  margin: 10px 0;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+form #depositButton {
+  background-color: #18cf00;
+}
+
+form #depositButton:hover {
+  background-color: #00a800;
+}
+
+form #withdrawalButton {
+  background-color: #cf5300;
+}
+
+form #withdrawalButton:hover {
+  background-color: #a83a00;
+}
+
+.transactions {
+  margin-top: 50px;
+}
+
+.transactions h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* Table styles */
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+table th {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+}
+
+table td {
+  padding: 10px;
+  text-align: center;
+}
+
+table tr:nth-child(even) {
+  background-color: rgb(194, 194, 194);
+}
+
+table tr:hover {
+  background-color: #f9f9f9;
+}
